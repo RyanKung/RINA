@@ -7,7 +7,10 @@ edition = "2018"
 [dependencies]
 dotenv = "0.10.*"
 bytes = "0.4"
-libp2p = { git="https://github.com/ryankung/rust-libp2p", branch="feature/with_examples"}
+libp2p = { git="https://github.com/ryankung/rust-libp2p"}
+libp2p-ping = { git="https://github.com/ryankung/rust-libp2p"}
+libp2p-core = { git="https://github.com/ryankung/rust-libp2p"}
+libp2p-tcp-transport = { git="https://github.com/ryankung/rust-libp2p"}
 futures = "0.1"
 tokio = "0.1.*"
 tokio-io = "0.1"
