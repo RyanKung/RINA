@@ -1,0 +1,15 @@
+[package]
+name = "rina"
+version = "0.1.0"
+authors = ["Ryan.K <ryankung@ieee.org>"]
+edition = "2018"
+
+[dependencies]
+dotenv = "0.10.*"
+bytes = "0.4"
+libp2p = { git="https://github.com/ryankung/rust-libp2p", branch="feature/with_examples"}
+futures = "0.1"
+tokio = "0.1.*"
+tokio-io = "0.1"
+tokio-current-thread = "0.1"
+env_logger = "0.5.4"
